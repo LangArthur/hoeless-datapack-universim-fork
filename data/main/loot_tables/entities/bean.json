@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:melon_slice",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 6
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{PublicBukkitValues:{\"universim:id\":\"bean\"},display:{Name:'{\"text\":\"Haricot rouge\",\"italic\":false}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

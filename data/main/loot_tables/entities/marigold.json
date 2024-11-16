@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:green_dye",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{PublicBukkitValues:{\"universim:id\":\"marigold\"},display:{Name:'{\"text\":\"Soucis\",\"italic\":false}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

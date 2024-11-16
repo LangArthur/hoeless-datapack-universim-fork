@@ -1,0 +1,455 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "items": [
+                        "minecraft:shears"
+                      ]
+                    }
+                  }
+                ],
+                "name": "minecraft:grass"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.125
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:uniform_bonus_count",
+                    "parameters": {
+                      "bonusMultiplier": 2
+                    }
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  }
+                ],
+                "name": "minecraft:wheat_seeds"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "items": [
+                        "minecraft:shears"
+                      ]
+                    }
+                  }
+                ],
+                "name": "minecraft:grass"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.01
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:uniform_bonus_count",
+                    "parameters": {
+                      "bonusMultiplier": 2
+                    }
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  }
+                ],
+                "name": "minecraft:beetroot_seeds"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "items": [
+                        "minecraft:shears"
+                      ]
+                    }
+                  }
+                ],
+                "name": "minecraft:grass"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.01
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:uniform_bonus_count",
+                    "parameters": {
+                      "bonusMultiplier": 2
+                    }
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  }
+                ],
+                "name": "minecraft:carrot"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "items": [
+                        "minecraft:shears"
+                      ]
+                    }
+                  }
+                ],
+                "name": "minecraft:grass"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.01
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:uniform_bonus_count",
+                    "parameters": {
+                      "bonusMultiplier": 2
+                    }
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  }
+                ],
+                "name": "minecraft:potato"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "items": [
+                        "minecraft:shears"
+                      ]
+                    }
+                  }
+                ],
+                "name": "minecraft:grass"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.01
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:uniform_bonus_count",
+                    "parameters": {
+                      "bonusMultiplier": 2
+                    }
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  },
+                  {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{Name:'{\"text\":\"Raddish\",\"italic\":false}'},CustomModelData:1}"
+                  }
+                ],
+                "name": "minecraft:apple"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "items": [
+                        "minecraft:shears"
+                      ]
+                    }
+                  }
+                ],
+                "name": "minecraft:grass"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.01
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:uniform_bonus_count",
+                    "parameters": {
+                      "bonusMultiplier": 2
+                    }
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  },
+                  {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{Name:'{\"text\":\"Cucumber\",\"italic\":false}'},CustomModelData:2}"
+                  }
+                ],
+                "name": "minecraft:apple"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "items": [
+                        "minecraft:shears"
+                      ]
+                    }
+                  }
+                ],
+                "name": "minecraft:grass"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.01
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:uniform_bonus_count",
+                    "parameters": {
+                      "bonusMultiplier": 2
+                    }
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  },
+                  {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{Name:'{\"text\":\"Eggplant\",\"italic\":false}'},CustomModelData:3}"
+                  }
+                ],
+                "name": "minecraft:apple"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "items": [
+                        "minecraft:shears"
+                      ]
+                    }
+                  }
+                ],
+                "name": "minecraft:grass"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.01
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:uniform_bonus_count",
+                    "parameters": {
+                      "bonusMultiplier": 2
+                    }
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  },
+                  {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{Name:'{\"text\":\"Strawberry\",\"italic\":false}'},CustomModelData:4}"
+                  }
+                ],
+                "name": "minecraft:apple"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "items": [
+                        "minecraft:shears"
+                      ]
+                    }
+                  }
+                ],
+                "name": "minecraft:grass"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.01
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:uniform_bonus_count",
+                    "parameters": {
+                      "bonusMultiplier": 2
+                    }
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  },
+                  {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{Name:'{\"text\":\"Cabbage\",\"italic\":false}'},CustomModelData:5}"
+                  }
+                ],
+                "name": "minecraft:apple"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "items": [
+                        "minecraft:shears"
+                      ]
+                    }
+                  }
+                ],
+                "name": "minecraft:grass"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.01
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:uniform_bonus_count",
+                    "parameters": {
+                      "bonusMultiplier": 2
+                    }
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  },
+                  {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{Name:'{\"text\":\"Kale\",\"italic\":false}'},CustomModelData:6}"
+                  }
+                ],
+                "name": "minecraft:apple"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

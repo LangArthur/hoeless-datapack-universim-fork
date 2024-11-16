@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:green_dye",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 4
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{PublicBukkitValues:{\"universim:id\":\"mint\"},display:{Name:'{\"text\":\"Menthe\",\"italic\":false}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

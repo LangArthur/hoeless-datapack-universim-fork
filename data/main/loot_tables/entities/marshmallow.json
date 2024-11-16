@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:green_dye",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 2
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{PublicBukkitValues:{\"universim:id\":\"marshmallow\"},display:{Name:'{\"text\":\"Guimauve\",\"italic\":false}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
