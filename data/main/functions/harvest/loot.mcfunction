@@ -12,7 +12,7 @@ execute if score @s plant matches 44 run loot spawn ~ ~0.4 ~ loot main:entities/
 execute if score @s plant matches 48 run loot spawn ~ ~0.4 ~ loot main:entities/leek
 execute if score @s plant matches 52 run loot spawn ~ ~0.4 ~ loot main:entities/pepper
 execute if score @s plant matches 56 run loot spawn ~ ~0.4 ~ loot main:entities/alchemilla
-execute if score @s plant matches 60 run loot spawn ~ ~0.4 ~ loot main:entities/hypercium
+execute if score @s plant matches 60 run loot spawn ~ ~0.4 ~ loot main:entities/hypericum
 execute if score @s plant matches 64 run loot spawn ~ ~0.4 ~ loot main:entities/lavender
 execute if score @s plant matches 68 run loot spawn ~ ~0.4 ~ loot main:entities/marigold
 execute if score @s plant matches 72 run loot spawn ~ ~0.4 ~ loot main:entities/marshmallow

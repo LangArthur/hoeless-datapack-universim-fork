@@ -16,7 +16,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{PublicBukkitValues:{\"universim:id\":\"hypercium\"},display:{Name:'{\"text\":\"Millepertuis\",\"italic\":false}'}}"
+                "tag": "{PublicBukkitValues:{\"universim:id\":\"hypericum\"},display:{Name:'{\"text\":\"Millepertuis\",\"italic\":false}'}}"
               }
             ]
           }

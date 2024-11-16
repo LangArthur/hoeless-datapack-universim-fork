@@ -13,7 +13,7 @@
 # 45: leek
 # 49: pepper
 # 53: alchemilla
-# 57: hypercium
+# 57: hypericum
 # 61: lavender
 # 65: marigold
 # 69: marshmallow
@@ -42,7 +42,7 @@ execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:apple",Slot:-106b,tag:{PublicBukkitValues:{"universim:id": "leek"}}}]}] run scoreboard players set @s plant 45
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:melon_slice",Slot:-106b,tag:{PublicBukkitValues:{"universim:id": "pepper"}}}]}] run scoreboard players set @s plant 49
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:green_dye",Slot:-106b,tag:{PublicBukkitValues:{"universim:id": "alchemilla"}}}]}] run scoreboard players set @s plant 53
-execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:green_dye",Slot:-106b,tag:{PublicBukkitValues:{"universim:id": "hypercium"}}}]}] run scoreboard players set @s plant 57
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:green_dye",Slot:-106b,tag:{PublicBukkitValues:{"universim:id": "hypericum"}}}]}] run scoreboard players set @s plant 57
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:green_dye",Slot:-106b,tag:{PublicBukkitValues:{"universim:id": "lavender"}}}]}] run scoreboard players set @s plant 61
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:green_dye",Slot:-106b,tag:{PublicBukkitValues:{"universim:id": "marigold"}}}]}] run scoreboard players set @s plant 65
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:green_dye",Slot:-106b,tag:{PublicBukkitValues:{"universim:id": "marshmallow"}}}]}] run scoreboard players set @s plant 69
@@ -63,13 +63,13 @@ execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{i
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:apple",tag:{PublicBukkitValues:{"universim:id": "turnip"}}}}] run scoreboard players set @s plant 21
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:melon_slice",tag:{PublicBukkitValues:{"universim:id": "salad"}}}}] run scoreboard players set @s plant 25
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:melon_slice",tag:{PublicBukkitValues:{"universim:id": "bean"}}}}] run scoreboard players set @s plant 29
-execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:melon_slice",tag:{PublicBukkitValues:{"universim:id": "corn"}}}}] run scoreboard players set @s plant 33
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:apple",tag:{PublicBukkitValues:{"universim:id": "corn"}}}}] run scoreboard players set @s plant 33
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:apple",tag:{PublicBukkitValues:{"universim:id": "grape"}}}}] run scoreboard players set @s plant 37
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:green_dye",tag:{PublicBukkitValues:{"universim:id": "hop"}}}}] run scoreboard players set @s plant 41
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:apple",tag:{PublicBukkitValues:{"universim:id": "leek"}}}}] run scoreboard players set @s plant 45
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:melon_slice",tag:{PublicBukkitValues:{"universim:id": "pepper"}}}}] run scoreboard players set @s plant 49
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:green_dye",tag:{PublicBukkitValues:{"universim:id": "alchemilla"}}}}] run scoreboard players set @s plant 53
-execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:green_dye",tag:{PublicBukkitValues:{"universim:id": "hypercium"}}}}] run scoreboard players set @s plant 57
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:green_dye",tag:{PublicBukkitValues:{"universim:id": "hypericum"}}}}] run scoreboard players set @s plant 57
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:green_dye",tag:{PublicBukkitValues:{"universim:id": "lavender"}}}}] run scoreboard players set @s plant 61
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:green_dye",tag:{PublicBukkitValues:{"universim:id": "marigold"}}}}] run scoreboard players set @s plant 65
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:green_dye",tag:{PublicBukkitValues:{"universim:id": "marshmallow"}}}}] run scoreboard players set @s plant 69
@@ -90,24 +90,24 @@ execute if score @s plant matches 17 run clear @a[tag=usingDetector,limit=1,sort
 execute if score @s plant matches 21 run clear @a[tag=usingDetector,limit=1,sort=nearest] apple{PublicBukkitValues:{"universim:id": "turnip"}} 1
 execute if score @s plant matches 25 run clear @a[tag=usingDetector,limit=1,sort=nearest] melon_slice{PublicBukkitValues:{"universim:id": "salad"}} 1
 execute if score @s plant matches 29 run clear @a[tag=usingDetector,limit=1,sort=nearest] melon_slice{PublicBukkitValues:{"universim:id": "bean"}} 1
-execute if score @s plant matches 33 run clear @a[tag=usingDetector,limit=1,sort=nearest] melon_slice{PublicBukkitValues:{"universim:id": "corn"}} 1
+execute if score @s plant matches 33 run clear @a[tag=usingDetector,limit=1,sort=nearest] apple{PublicBukkitValues:{"universim:id": "corn"}} 1
 execute if score @s plant matches 37 run clear @a[tag=usingDetector,limit=1,sort=nearest] apple{PublicBukkitValues:{"universim:id": "grape"}} 1
 execute if score @s plant matches 41 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "hop"}} 1
 execute if score @s plant matches 45 run clear @a[tag=usingDetector,limit=1,sort=nearest] apple{PublicBukkitValues:{"universim:id": "leek"}} 1
 execute if score @s plant matches 49 run clear @a[tag=usingDetector,limit=1,sort=nearest] melon_slice{PublicBukkitValues:{"universim:id": "pepper"}} 1
 execute if score @s plant matches 53 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "alchemilla"}} 1
-execute if score @s plant matches 53 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "hypercium"}} 1
-execute if score @s plant matches 53 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "lavender"}} 1
-execute if score @s plant matches 53 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "marigold"}} 1
-execute if score @s plant matches 53 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "marshmallow"}} 1
-execute if score @s plant matches 53 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "mint"}} 1
-execute if score @s plant matches 53 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "nettle"}} 1
-execute if score @s plant matches 53 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "oregano"}} 1
-execute if score @s plant matches 53 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "plantain"}} 1
-execute if score @s plant matches 53 run clear @a[tag=usingDetector,limit=1,sort=nearest] brown_dye{PublicBukkitValues:{"universim:id": "polypore"}} 1
-execute if score @s plant matches 53 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "rosmarin"}} 1
-execute if score @s plant matches 53 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "salvia"}} 1
-execute if score @s plant matches 53 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "valerian"}} 1
+execute if score @s plant matches 57 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "hypericum"}} 1
+execute if score @s plant matches 61 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "lavender"}} 1
+execute if score @s plant matches 65 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "marigold"}} 1
+execute if score @s plant matches 69 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "marshmallow"}} 1
+execute if score @s plant matches 73 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "mint"}} 1
+execute if score @s plant matches 77 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "nettle"}} 1
+execute if score @s plant matches 81 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "oregano"}} 1
+execute if score @s plant matches 85 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "plantain"}} 1
+execute if score @s plant matches 89 run clear @a[tag=usingDetector,limit=1,sort=nearest] brown_dye{PublicBukkitValues:{"universim:id": "polypore"}} 1
+execute if score @s plant matches 93 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "rosmarin"}} 1
+execute if score @s plant matches 97 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "salvia"}} 1
+execute if score @s plant matches 101 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "valerian"}} 1
 
 execute unless score @s plant matches 0 run playsound minecraft:block.crop.break master @a ~ ~ ~
 execute unless score @s plant matches 0 run tag @s add hasPlant
