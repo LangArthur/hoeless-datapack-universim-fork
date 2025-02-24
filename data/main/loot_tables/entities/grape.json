@@ -1,26 +1,26 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:melon_slice",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 1
-                }
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{PublicBukkitValues:{\"universim:id\":\"grape\"},display:{Name:'{\"text\":\"Raisin\",\"italic\":false}'}}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PublicBukkitValues:{\"universim:id\":\"grape\"},display:{Name:'{\"text\":\"Raisin\",\"italic\":false}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
