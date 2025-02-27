@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:porkchop",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{PublicBukkitValues: {\"universim:id\":\"animal_fat\"}, display: {Name: '{\"italic\":false,\"extra\":[{\"text\":\"Graisse animal\"}],\"text\":\"\"}'}}"
+            }
+          ],
+          "name": "minecraft:chicken"
+        }
+      ]
+    }
+  ]
+}
